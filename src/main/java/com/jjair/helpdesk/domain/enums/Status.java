@@ -2,7 +2,7 @@ package com.jjair.helpdesk.domain.enums;
 
 public enum Status {
 	
-	ABERT(0,"ABERTO"), ANDAMENTO(1,"ANDAMENTO"), ENCERRADO(2,"ENCERRADO");
+	ABERTO(0,"ABERTO"), ANDAMENTO(1,"ANDAMENTO"), ENCERRADO(2,"ENCERRADO");
 	
 	private Integer codigo;
 	public Integer getCodigo() {
